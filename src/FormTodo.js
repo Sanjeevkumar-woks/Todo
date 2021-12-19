@@ -18,7 +18,7 @@ export function FormTodo({ addTodo }) {
           }
         }} />
       <div className='submit'>
-        <Button type='submit' onClick={HandelSubmit} variant="contained" size="large">Submit</Button>
+        <Button type='submit' onClick={HandelSubmit} variant="contained" size="large">Add</Button>
       </div>
     </div>
   );
